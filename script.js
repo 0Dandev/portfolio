@@ -11,3 +11,9 @@ navLinks.forEach(link => {
         navMenu.classList.remove('nav-active');
     });
 });
+
+const themeToggle = document.getElementById('checkbox');
+
+themeToggle.addEventListener('change', function() {
+    document.documentElement.classList.toggle('dark-mode');
+});

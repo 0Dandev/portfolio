@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dannylo Dias - Portfólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
     <header>
+        <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+    </div>
         <button class="hamburger-menu" aria-label="Abrir menu">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -23,17 +30,14 @@
     </header>
 
     <main>
-       <section id="hero">
-    <h1>Dannylo Stevan Rodrigues Dias</h1>
-    <p>
-        Graduando em Ciência da Computação, focado em aprender e desenvolver soluções inovadoras que atendam às demandas do mercado. 
-        Motivado e comprometido em expandir meu conhecimento técnico e prático.
-    </p>
-    
-    <div class="hero-buttons">
-        <a href="https://www.linkedin.com/in/dannylo-stevan-9a25222bb" target="_blank" class="btn-secondary">Acessar LinkedIn</a>
-    </div>
-</section>
+        <section id="hero">
+            <h1>Dannylo Stevan Rodrigues Dias</h1>
+            <p>
+                Graduando em Ciência da Computação, focado em aprender e desenvolver soluções inovadoras que atendam às
+                demandas do mercado.
+                Motivado e comprometido em expandir meu conhecimento técnico e prático.
+            </p>
+        </section>
 
         <section id="projetos">
             <h2>PROJETOS</h2>
@@ -65,9 +69,13 @@
 
         <section id="contato">
             <h2>CONTATO</h2>
-            <a href="mailto:Profissionalrodrigues21@gmail.com">
-                <p>Profissionalrodrigues21@gmail.com</p>
-            </a>
+            <p>Sinta-se à vontade para se conectar comigo ou enviar uma mensagem.</p>
+            <div class="contact-buttons">
+                <a href="https://www.linkedin.com/in/dannylo-stevan-9a25222bb" target="_blank"
+                    class="btn-contact">Linkedin</a>
+                <a href="https://github.com/0Dandev" target="_blank" class="btn-contact">GitHub</a>
+                <a href="mailto:Profissionalrodrigues21@gmail.com" class="btn-contact">Email</a>
+            </div>
         </section>
     </main>
 
@@ -76,5 +84,6 @@
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
